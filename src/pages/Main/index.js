@@ -28,7 +28,7 @@ export default class Main extends Component {
         return (
             <div id="main-container">
                 <form onSubmit={this.handleSubmit}>
-                    <h1>Teste</h1>
+                    <h1>Realtime Chest</h1>
                     <input 
                         placeholder="Criar um box"
                         value={this.state.newBox}
